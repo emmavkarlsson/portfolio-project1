@@ -321,3 +321,81 @@ footer div {
         width: 100%;
     }
 }
+
+/* for mobile screen devices from 800px wide and down */
+
+@media screen and (max-width: 800px) {
+
+    header {
+        display: block;
+        margin-top: 30px;
+    }
+
+    #menu li {
+        padding: 5px 5px;
+        margin: 0;
+        font-size: 75%;
+    }
+
+    #hero-outer {
+        height: 450px;
+    }
+
+    #hero-text h1 {
+        font-size: 300%;
+    }
+
+    #services-container {
+        display: block;
+    }
+
+    #services-container div {
+        width: 90%;
+        height: 125px;
+        margin: 10px auto;
+        padding: 0;
+    }
+
+    #services h2 {
+        font-size: 100%;
+        padding: 10px 0;
+    }
+
+    #services p {
+        font-size: 75%;
+    }
+
+    #testimonials {
+        height: 450px;
+    }
+    
+    .testimonial-boxes {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .testimonial-quote {
+        padding: 0;
+        font-size: 90%;
+    }
+
+    #contact-form {
+        width: 75%;
+        font-size: 80%;
+        padding: 20px;
+    }
+
+    #map-container {
+        width: 75%;
+    }
+
+    footer div {
+        margin: 15px;
+        font-size: 80%;
+    }
+
+    .social-media li {
+        font-size: 125%;
+        padding: 5px 10px;
+    }
+}
