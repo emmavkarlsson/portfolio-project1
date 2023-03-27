@@ -169,3 +169,31 @@ header {
     display: flex;
 }
 
+#testimonial1-image, #testimonial2-image, #testimonial3-image {
+    border: 10px solid #e8c27a;
+    border-radius: 50%;
+    width: 125px;
+    height: 125px;
+}
+
+#testimonial1-image {
+    background: url(../images/testimonial1-image.webp) center;
+    background-size: cover;
+}
+
+#testimonial2-image {
+    background: url(../images/testimonial2-image.webp) center;
+    background-size: cover;
+}
+
+#testimonial3-image {
+    background: url(../images/testimonial3-image.webp) center;
+    background-size: cover;
+}
+
+.testimonial-quote {
+    text-align: center;
+    width: 75%;
+    padding: 15px;
+}
+
