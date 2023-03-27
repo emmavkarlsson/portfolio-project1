@@ -309,3 +309,15 @@ footer div {
         height: 100px;
     }
 }
+
+/* for medium sized screens from 950px wide and down */
+
+@media screen and (max-width: 950px) {
+    #testimonial1-image, #testimonial2-image, #testimonial3-image {
+        display: none;
+    }
+
+    .testimonial-quote {
+        width: 100%;
+    }
+}
