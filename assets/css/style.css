@@ -229,6 +229,27 @@ header {
     border-radius: 5px;
 }
 
+textarea {
+    resize: none;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding-left: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#submit-button {
+    width: 100px;
+    position: relative; 
+    margin-top: 20px;
+    background-color: #e8c27a;
+    color: #fbfbfb;
+    font-size: 100%;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 5px;
+}
+
 /* footer */
 
 footer {
