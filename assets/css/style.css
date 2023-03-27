@@ -147,3 +147,25 @@ header {
     }
 }
 
+/* testimonials */
+
+#testimonials {
+    width: 100%;
+    height: 600px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    overflow: hidden;
+}
+
+#testimonials h3 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.testimonial-boxes {
+    margin: 0 auto;
+    padding: 15px;
+    width: 50%;
+    display: flex;
+}
+
