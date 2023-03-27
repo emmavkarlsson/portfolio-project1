@@ -372,6 +372,7 @@ footer div {
     .testimonial-boxes {
         width: 95%;
         margin: 0 auto;
+        padding: 10px;
     }
 
     .testimonial-quote {
