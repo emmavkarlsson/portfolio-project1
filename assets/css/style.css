@@ -91,6 +91,15 @@ header {
     margin-bottom: 60px;
 }
 
+#services h3 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#services h2 {
+    padding: 30px 0;
+}
+
 #services-container {
     display: flex;
     align-items: center;
@@ -100,16 +109,26 @@ header {
 #services-container div {
     width: 30%;
     height: 540px;
-    color: #e8c27a;
-    background-color: blue;
-}
-
-#services h3 {
+    margin: 0 30px;
     text-align: center;
-    margin-bottom: 30px;
+    padding: 0px 30px;
+    color: #e8c27a;
 }
 
-#services h2 {
-    padding: 30px 0;
+#services #digital-marketing {
+    background: linear-gradient(rgba(61,30,43,0.9),rgba(61,30,43,0.9)),url(../images/digital-marketing.webp);
+    background-size: cover;
 }
+
+#services #photography-videography{
+    background: linear-gradient(rgba(61,30,43,0.9),rgba(61,30,43,0.9)),url(../images/photography-videography.webp);
+    background-size: cover;
+}
+
+#services #digital-analysis {
+    background: linear-gradient(rgba(61,30,43,0.9),rgba(61,30,43,0.9)),url(../images/digital-analysis.webp);
+    background-size: cover;
+}
+
+
 
