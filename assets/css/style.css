@@ -265,6 +265,16 @@ textarea {
     border: none;
 }
 
+#confirmation {
+    width: 100%;
+    text-align: center;
+    margin-top: 60px;
+}
+
+#confirmation a:hover {
+    border-bottom: 2px solid #e8c27a;
+}
+
 /* footer */
 
 footer {
