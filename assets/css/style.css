@@ -4,6 +4,7 @@
     margin: 0;
     border: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -64,7 +65,7 @@ header {
 }
 
 #hero-image {
-    background: linear-gradient(rgba(61,30,43,0.8),rgba(61,30,43,0.8)),url(../images/hero-image.webp);
+    background: linear-gradient(#3d1e2bcc,#3d1e2bcc),url(../images/hero-image.webp);
     height: 100%;
     background-size: cover;
 }
@@ -116,22 +117,22 @@ header {
 }
 
 #services #digital-marketing {
-    background: linear-gradient(rgba(61,30,43,0.9),rgba(61,30,43,0.9)),url(../images/digital-marketing.webp);
+    background: linear-gradient(#3d1e2be6,#3d1e2be6),url(../images/digital-marketing.webp);
     background-size: cover;
 }
 
 #services #photography-videography{
-    background: linear-gradient(rgba(61,30,43,0.9),rgba(61,30,43,0.9)),url(../images/photography-videography.webp);
+    background: linear-gradient(#3d1e2be6,#3d1e2be6),url(../images/photography-videography.webp);
     background-size: cover;
 }
 
 #services #digital-analysis {
-    background: linear-gradient(rgba(61,30,43,0.9),rgba(61,30,43,0.9)),url(../images/digital-analysis.webp);
+    background: linear-gradient(#3d1e2be6,#3d1e2be6),url(../images/digital-analysis.webp);
     background-size: cover;
 }
 
+/* animates zoom effect when hovering */
 #services-container div:hover {
-    /* animates zoom effect when hovering */
     animation-name: services-zoom;
     animation-duration: 0.5s;
     animation-fill-mode: forwards;
@@ -320,6 +321,10 @@ footer div {
     .testimonial-quote {
         width: 100%;
     }
+
+    #map-container {
+        width: 75%;
+    }
 }
 
 /* for mobile screen devices from 800px wide and down */
@@ -387,7 +392,7 @@ footer div {
     }
 
     #map-container {
-        width: 75%;
+        width: 100%;
     }
 
     footer div {
