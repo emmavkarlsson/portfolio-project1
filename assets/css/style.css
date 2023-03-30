@@ -319,6 +319,10 @@ footer div {
     #map-container {
         width: 75%;
     }
+
+    #services p {
+        font-size: 75%;
+    }
 }
 
 /* for mobile screen devices from 800px wide and down */
@@ -371,7 +375,7 @@ footer div {
     }
 
     #services p {
-        font-size: 75%;
+        font-size: 50%;
     }
 
     #testimonials {

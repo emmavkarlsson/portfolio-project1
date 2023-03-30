@@ -128,7 +128,7 @@ Sketch of the website:
 
 **Validator testing**
 <ul>
-<li>HTML - The website passed without warnings or errors when checked through the W3C validator.</li><a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Femmavkarlsson.github.io%2Fportfolio-project1%2Findex.html">Results home page.</a><a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Femmavkarlsson.github.io%2Fportfolio-project1%2Fcontact.html"> Results contact page</a>
+<li>HTML - The website passed without warnings or errors when checked through the W3C validator.</li><a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Femmavkarlsson.github.io%2Fportfolio-project1%2Findex.html">Results home page.</a><a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Femmavkarlsson.github.io%2Fportfolio-project1%2Fcontact.html"> Results contact page.</a> <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Femmavkarlsson.github.io%2Fportfolio-project1%2Fconfirmation.html"> Results confirmation page.</a>
 <li>CSS - The website passed without warnings or errors when checked through the Jigsaw validator.</li><a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Femmavkarlsson.github.io%2Fportfolio-project1%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv">Results.</a>
 <li>Accessibility - the website scored high in all areas when tested through the Lighthouse function in devtools.</li>
 </ul>
