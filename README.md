@@ -63,6 +63,8 @@ The user of the home page is able to read about the services offered and read te
 <li>The email field is set to email, so that the user has to enter an email address in the field.</li>
 </ul>
 <img src="docs/readme_7.png">
+When submitting the form, the user will be redirected to a confirmation page with a message. Here, the user can easily navigate back to the home page by pressing a link.<br>
+<img src="docs/readme_11.png" width="50%">
 
 <br><br>
 <em>Map</em>
