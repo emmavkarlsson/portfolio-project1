@@ -5,6 +5,11 @@ The user of the home page is able to read about the services offered and read te
 <img src="docs/readme_1.png">
 <br><br>
 
+**User Stories**
+* As a user of the website, I would like to know more about the services EK Agency offer. Therefore, I click on the "services" link in the navbar, which sends me to the services section of the page. Here, I can read about the services offered.
+* I would also like to read testimonials from previous clients. Therefore, I click on the "testimonials" link in the navbar, which sends me to the testimonials section of the page. Here, I can read testimonials from previous customers. 
+* As a user of the website, I would also like to contact the company. Therefore, I click on the "contact" link in the navbar, which sends me to a contact page. Here, I can fill out a form to contact the company, and I can also see where the company is located by looking at the google maps under the form. 
+
 **Features**
 
 <em>Header & Navigation</em>
@@ -122,9 +127,42 @@ Sketch of the website:
 </ul>
 <br><br>
 
+*Test cases*
+
+- Contact form:
+    1. User clicks on "contact" link in navbar, user gets directed to contact page.
+    2. User try submitting the contact form without putting in first name, last name, email address and does not select an option under the "Are you an existing client" question, submission fails.
+    <br><img src="docs/readme_12.png" width="25%">
+    3. User puts in first name and tries to submit again, submission fails.
+    <br><img src="docs/readme_13.png" width="25%">
+    4. User puts in last name and tries to submit again, submission fails.
+    <br><img src="docs/readme_14.png" width="25%">
+    5. User puts in text in the email field which is not an email address, submission fails.
+    <br><img src="docs/readme_15.png" width="25%">
+    6. User puts in a correct email address and tries to submit again, submission fails. 
+    <br><img src="docs/readme_16.png" width="25%">
+    7. User chooses an option under the "Are you an existing client" question and tries to submit again, submission succeeds and user is sent to the confirmation page. 
+    <br><img src="docs/readme_11.png" width="25%">
+<br><br>
+- Confirmation page: 
+    1. User tries to go back to home page
+    2. User clicks the "return to home page" link.
+    3. User is sent back to home page.
+<br><br>
+- Services section:
+    1. User tries to read about services.
+    2. User clicks the "services" link in navbar.
+    3. User is sent to services section and is able to read about the different services.
+<br><br>
+- Testimonials section: 
+    1. User tries to read testimonials from previous clients.
+    2. User clicks the "testimonials" link in navbar. 
+    3. User is sent to the testimonials section and is able to read testimonials from different clients. 
+
+
 **Bugs**
 <ul>
-<li>I did not come across any bugs while working on the website.</li>
+<li>When I first tried styling the testimonial-boxes, nothing would change. I then noticed that in my CSS file, I had written "#testimonial-boxes" when testimonial-boxes was actually a class. I changed this to ".testimonial-boxes" and was able to style them.</li>
 </ul>
 <br><br>
 
@@ -138,14 +176,16 @@ Sketch of the website:
 <br><br>
 
 **Deployment**
-<ul>
-<li>The site was deployed to GitHub pages through the following steps:
-<li>1. Open the repository and go to Settings.</li>
-<li>2. In the menu to the left, press Pages.</li>
-<li>3. Under Branch, select Main.</li>
-<li>4. The link to the website is then provided at the top of the page.</li>
-</li>
-</ul>
+* The site was deployed to GitHub pages through the following steps:
+    1. Open the repository and go to Settings.
+    2. In the menu to the left, press Pages.
+    3. Under Branch, select Main.
+    4. The link to the website is then provided at the top of the page.
+* The site was deployed to GitPod through the following steps:
+    1. Open the repository and press the green "GitPod" button.
+    2. In the terminal, write "python3 -m http.server" and press enter
+    3. A pop up will appear at the bottom right, press "Open Browser"
+    4. The page will open in a new tab.
 <br><br>
 
 **Credits**
